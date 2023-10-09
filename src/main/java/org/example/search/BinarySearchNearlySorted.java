@@ -1,12 +1,10 @@
-package org.example;
+package org.example.search;
 
 public class BinarySearchNearlySorted {
 
     public static void main(String[] args) {
         System.out.println(binarySearch(new int[]{10,3,40,20,50,80,70}, 70));
     }
-
-
 
     static int binarySearch(int[] arr , int target){
         int s = 0;

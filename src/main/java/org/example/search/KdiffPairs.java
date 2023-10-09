@@ -1,4 +1,4 @@
-package org.example;
+package org.example.search;
 
 import org.jetbrains.annotations.Contract;
 

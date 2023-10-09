@@ -1,4 +1,4 @@
-package org.example;
+package org.example.search;
 
 public class PairBinarySearch {
     public static void main(String[] args) {
