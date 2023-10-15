@@ -5,7 +5,6 @@ public class LeetCode983 {
 
     }
     public int mincostTickets(int[] days, int[] costs, int d, int[] dp) {
-
         if (d>=days.length){
             return 0;
         }
@@ -19,17 +18,13 @@ public class LeetCode983 {
          if (days[i] >= days[d] + 7)
              break;
         }
-
         int sevenDayPass = mincostTickets(days, costs, i, dp) + costs[1];
         for (i = d; i < days.length ; i++) {
             if (days[i] >= days[d] + 30)
                 break;
         }
         int thirtyDayPass = mincostTickets(days, costs, i, dp) + costs[2];
-
         dp[d] =  Math.min(onedayPass, Math.min(sevenDayPass, thirtyDayPass));
-       return dp[d];
+        return dp[d];
     }
-
-
 }
