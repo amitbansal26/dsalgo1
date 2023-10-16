@@ -13,14 +13,14 @@ public class AnaGramCheck {
     }
 
     static boolean solve(String s, String t, Map<Character, Integer> sCountMap,
-                         Map<Character, Integer> tCountMap){
+                         Map<Character, Integer> tCountMap) {
 
-        if (s.length()!=t.length()){
+        if (s.length() != t.length()) {
             return false;
         }
-        for (int i = 0; i <s.length() ; i++) {
-            sCountMap.put(s.charAt(i), 1+ sCountMap.getOrDefault(s.charAt(i), 0));
-            tCountMap.put(t.charAt(i), 1+ tCountMap.getOrDefault(t.charAt(i), 0));
+        for (int i = 0; i < s.length(); i++) {
+            sCountMap.put(s.charAt(i), 1 + sCountMap.getOrDefault(s.charAt(i), 0));
+            tCountMap.put(t.charAt(i), 1 + tCountMap.getOrDefault(t.charAt(i), 0));
         }
         return sCountMap.equals(tCountMap);
     }

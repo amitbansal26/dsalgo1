@@ -8,25 +8,25 @@ public class LeetCode557 {
 
 
     static String reverseWords(String s) {
-     char[] arr =  s.toCharArray();
-     int l=0;
-       for (int i = 0; i <arr.length ; i++) {
-          if (arr[i]==' ' || i== arr.length-1){
-              int templ=l, tempr=i-1;
-              if (i==arr.length-1){
-                  tempr = i;
-              }
-              while (templ<tempr){
-                  char temch = arr[templ];
-                  arr[templ]=arr[tempr];
-                  arr[tempr]=temch;
-                  templ++;
-                  tempr--;
-              }
-              l = i +1;
-          }
+        char[] arr = s.toCharArray();
+        int l = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == ' ' || i == arr.length - 1) {
+                int templ = l, tempr = i - 1;
+                if (i == arr.length - 1) {
+                    tempr = i;
+                }
+                while (templ < tempr) {
+                    char temch = arr[templ];
+                    arr[templ] = arr[tempr];
+                    arr[tempr] = temch;
+                    templ++;
+                    tempr--;
+                }
+                l = i + 1;
+            }
         }
-    return new String(arr);
+        return new String(arr);
     }
 
 }
