@@ -17,6 +17,6 @@ public class LeetCode2697 {
             left++;
             right--;
         }
-        return new String(arr);
+        return String.valueOf(arr);
     }
 }
