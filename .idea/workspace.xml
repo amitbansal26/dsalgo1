@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca124d48-ecc1-4745-96f3-faf9a32cb54a" name="Changes" comment="added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/CountPairs2824.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode2367.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode557.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode832.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/leetcode/AnaGramCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/AnaGramCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PeakElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PeakElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PivotElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PivotElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/leetcode/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/TrappingRainWater.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +61,7 @@
       <ReportDescription localRun="true" path="C:\Users\amitb_rrhxcpn\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="420106ff-d79d-43a2-8d07-b1ba2b3821eb" reportId="dsalgo1/qodana/2023-10-10" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.AnaGramCheck">
+  <component name="RunManager" selected="Application.LeetCode557">
     <configuration name="AnaGramCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.leetcode.AnaGramCheck" />
       <module name="dsalgo1" />
@@ -84,21 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode118" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.LeetCode118" />
-      <module name="dsalgo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode70" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.LeetCode70" />
+    <configuration name="LeetCode557" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.LeetCode557" />
       <module name="dsalgo1" />
       <extension name="coverage">
         <pattern>
@@ -123,13 +114,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.TrappingRainWater" />
+      <module name="dsalgo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode557" />
+        <item itemvalue="Application.TrappingRainWater" />
         <item itemvalue="Application.AnaGramCheck" />
         <item itemvalue="Application.KthSmallestNumber" />
         <item itemvalue="Application.PaintWalls" />
-        <item itemvalue="Application.LeetCode118" />
-        <item itemvalue="Application.LeetCode70" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697364438970</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added">
+      <option name="closed" value="true" />
+      <created>1697398631051</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697398631051</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,6 +244,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode118.java</url>
           <line>15</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode557.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode557.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

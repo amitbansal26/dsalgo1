@@ -5,9 +5,6 @@ public class PeakElement {
       int result = peakelementIndex(new int[]{0,10,5,2});
         System.out.println("The Result is " + result);
     }
-
-
-
    static  int peakelementIndex(int[] arr){
      int s = 0;
      int e = arr.length -1;
