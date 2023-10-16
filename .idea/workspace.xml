@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca124d48-ecc1-4745-96f3-faf9a32cb54a" name="Changes" comment="added" />
+    <list default="true" id="ca124d48-ecc1-4745-96f3-faf9a32cb54a" name="Changes" comment="added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode2108.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode942.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/QuickSort.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/Diamond.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
@@ -52,20 +62,7 @@
       <ReportDescription localRun="true" path="C:\Users\amitb_rrhxcpn\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="420106ff-d79d-43a2-8d07-b1ba2b3821eb" reportId="dsalgo1/qodana/2023-10-10" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeetCode1768">
-    <configuration name="AnaGramCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.AnaGramCheck" />
-      <module name="dsalgo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LeetCode2108">
     <configuration name="LeetCode1768" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.leetcode.LeetCode1768" />
       <module name="dsalgo1" />
@@ -81,6 +78,19 @@
     </configuration>
     <configuration name="LeetCode2000" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.leetcode.LeetCode2000" />
+      <module name="dsalgo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode2108" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.LeetCode2108" />
       <module name="dsalgo1" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode2108" />
         <item itemvalue="Application.LeetCode1768" />
         <item itemvalue="Application.LeetCode2000" />
         <item itemvalue="Application.LeetCode557" />
         <item itemvalue="Application.TrappingRainWater" />
-        <item itemvalue="Application.AnaGramCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -233,8 +243,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697465136265</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added">
+      <option name="closed" value="true" />
+      <created>1697466547070</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1697466547070</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="executable:terraform" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added" />
@@ -247,11 +270,6 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="31" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode118.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode557.java</url>
           <line>28</line>

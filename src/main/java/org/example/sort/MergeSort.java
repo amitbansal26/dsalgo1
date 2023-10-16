@@ -6,8 +6,8 @@ public class MergeSort {
         int[] arr = new int[]{34, 32, 78, 3, 5, 6, 6, 90, 45, 123, 45, 88, 97, 23, 8888, 333, 4445, 5555, 6666, 777};
         MergeSort mergeSort = new MergeSort();
         mergeSort.mergeSort(arr, arr.length - 1, 0);
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+        for (int j : arr) {
+            System.out.print(j + " ");
         }
     }
 
