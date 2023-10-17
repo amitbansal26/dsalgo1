@@ -5,7 +5,6 @@ public class LeetCode2000 {
         LeetCode2000 leetCode2000 = new LeetCode2000();
         System.out.println(leetCode2000.reversePrefix("abcdefd", 'd'));
     }
-
     public String reversePrefix(String word, char ch) {
         char[] arr = word.toCharArray();
         int l = 0;

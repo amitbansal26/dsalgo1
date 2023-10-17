@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca124d48-ecc1-4745-96f3-faf9a32cb54a" name="Changes" comment="added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode2108.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode344.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode942.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode2000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode2000.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode2367.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode2367.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode832.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode832.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +28,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/Diamond.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -45,24 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/amit/algos/dsalgo1/pom.xml",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\amitb_rrhxcpn\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="420106ff-d79d-43a2-8d07-b1ba2b3821eb" reportId="dsalgo1/qodana/2023-10-10" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeetCode2108">
+  <component name="RunManager" selected="Application.LeetCode2000">
     <configuration name="LeetCode1768" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.leetcode.LeetCode1768" />
       <module name="dsalgo1" />
@@ -130,9 +132,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode2000" />
         <item itemvalue="Application.LeetCode2108" />
         <item itemvalue="Application.LeetCode1768" />
-        <item itemvalue="Application.LeetCode2000" />
         <item itemvalue="Application.LeetCode557" />
         <item itemvalue="Application.TrappingRainWater" />
       </list>
@@ -287,5 +289,9 @@
         <watch expression="i" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,7 +1,6 @@
 package org.example.leetcode;
 
 public class LeetCode832 {
-
     public int[][] flipAndInvertImage(int[][] image) {
         for (int[] row : image) {
             int l = 0, r = row.length - 1;
