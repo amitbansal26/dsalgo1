@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca124d48-ecc1-4745-96f3-faf9a32cb54a" name="Changes" comment="added">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/amit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/PreOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode2000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode2000.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode2367.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode2367.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode832.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/LeetCode832.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp/KnapSack01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp/KnapSack01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -32,7 +37,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -46,25 +51,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/amit/algos/dsalgo1/pom.xml",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/amit/algos/dsalgo1/pom.xml&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="QodanaReportsService">
-    <option name="descriptions">
-      <ReportDescription localRun="true" path="C:\Users\amitb_rrhxcpn\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="420106ff-d79d-43a2-8d07-b1ba2b3821eb" reportId="dsalgo1/qodana/2023-10-10" />
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.LeetCode2000">
+}</component>
+  <component name="RunManager" selected="Application.PreOrder">
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.tree.BinaryTree" />
+      <module name="dsalgo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LeetCode1768" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.leetcode.LeetCode1768" />
       <module name="dsalgo1" />
@@ -104,25 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode557" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.LeetCode557" />
+    <configuration name="PreOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.tree.PreOrder" />
       <module name="dsalgo1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.TrappingRainWater" />
-      <module name="dsalgo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.leetcode.*" />
+          <option name="PATTERN" value="org.example.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PreOrder" />
+        <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.LeetCode2000" />
         <item itemvalue="Application.LeetCode2108" />
         <item itemvalue="Application.LeetCode1768" />
-        <item itemvalue="Application.LeetCode557" />
-        <item itemvalue="Application.TrappingRainWater" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697466547070</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added">
+      <option name="closed" value="true" />
+      <created>1697566953967</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1697566953967</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -282,11 +291,17 @@
           <line>12</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/tree/BinaryTree.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="i" />
+        <watch expression="deque" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

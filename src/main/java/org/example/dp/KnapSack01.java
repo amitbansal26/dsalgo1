@@ -50,7 +50,8 @@ public class KnapSack01 {
             return t[n][W];
         }
         if (wt[n - 1] <= W) {
-            t[n][W] = Integer.max(val[n - 1] + knapSack(wt, val, W - wt[n - 1], n - 1), knapSack(wt, val, W, n - 1));
+            t[n][W] = Integer.max(val[n - 1] + knapSack(wt, val, W - wt[n - 1], n - 1),
+                    knapSack(wt, val, W, n - 1));
         } else {
             t[n][W] = knapSack(wt, val, W, n - 1);
         }
