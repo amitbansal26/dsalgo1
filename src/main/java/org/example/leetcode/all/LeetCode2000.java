@@ -1,4 +1,4 @@
-package org.example.leetcode;
+package org.example.leetcode.all;
 
 public class LeetCode2000 {
     public static void main(String[] args) {

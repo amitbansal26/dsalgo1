@@ -1,4 +1,4 @@
-package org.example.leetcode;
+package org.example.leetcode.all;
 
 public class LeetCode2697 {
     public String makeSmallestPalindrome(String s) {

@@ -1,4 +1,4 @@
-package org.example.leetcode;
+package org.example.leetcode.all;
 
 public class PaintWalls {
     public static void main(String[] args) {
