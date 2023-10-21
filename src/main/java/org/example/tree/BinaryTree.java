@@ -30,7 +30,7 @@ public class BinaryTree {
             }
             if (x!=-1){
                  t = new TreeNode(x, null, null);
-                 p.leftNode = t;
+                 p.left = t;
                  deque.offer(t);
             }
             System.out.print("Enter the Right child:::::");
@@ -40,7 +40,7 @@ public class BinaryTree {
             }
             if (x!=-1){
                 t = new TreeNode(x, null, null);
-                p.rightNode = t;
+                p.right = t;
                 deque.offer(t);
             }
         }
@@ -53,8 +53,8 @@ public class BinaryTree {
             return p;
         if (root.val==q.val)
             return q;
-        TreeNode leftAns = lowestCommonAncestor(root.leftNode, p, q);
-        TreeNode rightAns = lowestCommonAncestor(root.rightNode, p , q);
+        TreeNode leftAns = lowestCommonAncestor(root.left, p, q);
+        TreeNode rightAns = lowestCommonAncestor(root.right, p , q);
         if (leftAns==null && rightAns==null)
             return null;
         else if (leftAns!=null && rightAns==null)

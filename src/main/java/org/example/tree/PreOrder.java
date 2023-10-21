@@ -15,23 +15,23 @@ public class PreOrder {
 
         if (node !=null){
             System.out.print(" " + node.val + " ");
-            preorder(node.leftNode);
-            preorder(node.rightNode);
+            preorder(node.left);
+            preorder(node.right);
         }
     }
     private static void inorder(TreeNode node) {
 
         if (node !=null){
-            inorder(node.leftNode);
+            inorder(node.left);
             System.out.print(" " + node.val + " ");
-            preorder(node.rightNode);
+            preorder(node.right);
         }
     }
     private static void postorder(TreeNode node) {
 
         if (node !=null){
-            postorder(node.leftNode);
-            postorder(node.rightNode);
+            postorder(node.left);
+            postorder(node.right);
             System.out.print(" " + node.val + " ");
         }
     }
