@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca124d48-ecc1-4745-96f3-faf9a32cb54a" name="Changes" comment="added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/BinaryTreeHeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/DiagonalTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/DiameterBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/ZigZag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp/MinCostSumPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/kadane/KadaneAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/monotonic/stack/NextGreaterElement1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/monotonic/stack/NextGreaterElement2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/MinStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tree/PreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/PreOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/recursion/ClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/recursion/ClimbStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +66,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ZigZag">
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.tree.BinaryTree" />
+  <component name="RunManager" selected="Application.ClimbStairs">
+    <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.recursion.ClimbStairs" />
       <module name="dsalgo1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.tree.*" />
+          <option name="PATTERN" value="org.example.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode2000" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.all.LeetCode2000" />
+    <configuration name="KadaneAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.kadane.KadaneAlgorithm" />
       <module name="dsalgo1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.leetcode.all.*" />
+          <option name="PATTERN" value="org.example.kadane.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.tree.PreOrder" />
+    <configuration name="NextGreaterElement2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.monotonic.stack.NextGreaterElement2" />
       <module name="dsalgo1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.tree.*" />
+          <option name="PATTERN" value="org.example.monotonic.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClimbStairs" />
+        <item itemvalue="Application.KadaneAlgorithm" />
+        <item itemvalue="Application.NextGreaterElement2" />
         <item itemvalue="Application.ZigZag" />
         <item itemvalue="Application.StackOuterParantheses" />
-        <item itemvalue="Application.PreOrder" />
-        <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.LeetCode2000" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697806188855</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added">
+      <option name="closed" value="true" />
+      <created>1697907708432</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1697907708432</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -303,6 +312,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/tree/ZigZag.java</url>
           <line>29</line>
           <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/monotonic/stack/NextGreaterElement2.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
