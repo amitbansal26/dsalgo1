@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca124d48-ecc1-4745-96f3-faf9a32cb54a" name="Changes" comment="added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp/EqualSumPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp/LCS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp/EqualSumPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp/EqualSumPartition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +29,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/Diamond.java" root0="FORCE_HIGHLIGHTING" />
@@ -64,13 +66,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ClimbStairs">
+  <component name="RunManager" selected="Application.LCS">
     <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.recursion.ClimbStairs" />
       <module name="dsalgo1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EqualSumPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dp.EqualSumPartition" />
+      <module name="dsalgo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,6 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LCS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dp.LCS" />
+      <module name="dsalgo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NextGreaterElement2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.monotonic.stack.NextGreaterElement2" />
       <module name="dsalgo1" />
@@ -104,39 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackOuterParantheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.stack.StackOuterParantheses" />
-      <module name="dsalgo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.leetcode.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZigZag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.tree.ZigZag" />
-      <module name="dsalgo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LCS" />
+        <item itemvalue="Application.EqualSumPartition" />
         <item itemvalue="Application.ClimbStairs" />
         <item itemvalue="Application.KadaneAlgorithm" />
         <item itemvalue="Application.NextGreaterElement2" />
-        <item itemvalue="Application.ZigZag" />
-        <item itemvalue="Application.StackOuterParantheses" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698518043205</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added">
+      <option name="closed" value="true" />
+      <created>1698552994694</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1698552994694</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -332,6 +342,11 @@
           <line>13</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/dp/EqualSumPartition.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -339,6 +354,7 @@
         <watch expression="i" />
         <watch expression="deque" language="JAVA" />
         <watch expression="stack" />
+        <watch expression="dp" />
       </configuration>
     </watches-manager>
   </component>
