@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PascalTriangle {
-
     public static void main(String[] args) {
         PascalTriangle tri = new PascalTriangle();
         tri.generate(8).forEach(list-> {
@@ -35,9 +34,7 @@ public class PascalTriangle {
             list4.set(i, list3.get(numRows-2).get(i-1) +
                     list3.get(numRows-2).get(i));
         }
-
         list3.add(list4);
         return list3;
-
     }
 }
