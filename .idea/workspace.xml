@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca124d48-ecc1-4745-96f3-faf9a32cb54a" name="Changes" comment="added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp/LCS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp/PascalTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dp/SCS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp/EqualSumPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp/EqualSumPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dp/LCS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dp/LCS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LCS">
+  <component name="RunManager" selected="Application.PascalTriangle">
     <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.recursion.ClimbStairs" />
       <module name="dsalgo1" />
@@ -119,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreaterElement2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.monotonic.stack.NextGreaterElement2" />
+    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dp.PascalTriangle" />
       <module name="dsalgo1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.monotonic.stack.*" />
+          <option name="PATTERN" value="org.example.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PascalTriangle" />
         <item itemvalue="Application.LCS" />
         <item itemvalue="Application.EqualSumPartition" />
         <item itemvalue="Application.ClimbStairs" />
         <item itemvalue="Application.KadaneAlgorithm" />
-        <item itemvalue="Application.NextGreaterElement2" />
       </list>
     </recent_temporary>
   </component>
@@ -303,13 +304,32 @@
       <option name="project" value="LOCAL" />
       <updated>1698552994694</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added">
+      <option name="closed" value="true" />
+      <created>1698570811983</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1698570811983</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="dependencySupport" implementationName="executable:docker" />
     <option featureType="dependencySupport" implementationName="executable:kubectl" />
     <option featureType="dependencySupport" implementationName="executable:terraform" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added" />
@@ -347,16 +367,13 @@
           <line>41</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/dp/PascalTriangle.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="i" />
-        <watch expression="deque" language="JAVA" />
-        <watch expression="stack" />
-        <watch expression="dp" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
