@@ -11,20 +11,16 @@ public class LCS {
         int m=text2.length();
         int[][]dp = new int[n+1][m+1];
         Arrays.stream(dp).forEach(d->Arrays.fill(d ,-1));
-       // System.out.println(lcs.longestCommonSubsequence(text1, text2, dp));
+        System.out.println(lcs.longestCommonSubsequence(text1, text2, dp));
         System.out.println(lcs.printLCS(text1, text2));
     }
-
     public int longestCommonSubsequence(String text1, String text2) {
-
         if(text1.isBlank() || text2.isBlank())
             return 0;
-
         int n=text1.length();
         int m=text2.length();
         int[][]dp = new int[n+1][m+1];
         Arrays.stream(dp).forEach(d->Arrays.fill(d ,-1));
-
         for (int i = 0; i < n+1 ; i++) {
             for (int j = 0; j < m+1; j++) {
                 if (i==0)
@@ -40,8 +36,6 @@ public class LCS {
         }
         return dp[n][m];
     }
-
-
     public int longestCommonSubsequence(String text1, String text2, int[][]dp) {
         if(text1.isBlank() || text2.isBlank())
             return 0;
@@ -57,11 +51,7 @@ public class LCS {
                     longestCommonSubsequence(text1.substring(0, n-1), text2.substring(0, m), dp));
         }
     }
-
-
-
     public String printLCS(String text1, String text2) {
-
         if(text1.isBlank() || text2.isBlank())
             return "";
 
@@ -83,8 +73,6 @@ public class LCS {
                 }
             }
         }
-
-        // i =n , j =m
         int i=n,j=m;
         StringBuilder stringBuilder = new StringBuilder();
         while (i>0 && j>0){
